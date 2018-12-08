@@ -1,0 +1,19 @@
+server:
+  port: 9888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chenjiajiabianmi/config-test
+          clone-on-start: true
+          username:
+          password:
+          default-label: master
+
+  security:
+    user:
+      name: root
+      password: 123
+
