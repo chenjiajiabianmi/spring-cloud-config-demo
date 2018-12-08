@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.baeldung.spring.cloud.config.server.ConfigServer;
+import com.liu.bike.erp.config.server.ConfigServer;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = ConfigServer.class)
